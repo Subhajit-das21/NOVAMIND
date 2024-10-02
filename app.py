@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configure Google AI Gemini model
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyBqGHEdm2QQfmVb_Q2jncMtVR1UfO8cqIc"))
 
 # Create the model with specific configuration
 generation_config = {
